@@ -1,0 +1,28 @@
+{
+  "name": "@skyplay19/globalify",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "ts-node-dev --respawn test/index.ts",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Anya Simba",
+    "email": "anyasimba@yandex.ru",
+    "url": "https://career.habr.com/anyasimba"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skyplay19/globalify"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
